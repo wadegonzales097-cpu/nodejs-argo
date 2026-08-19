@@ -33,17 +33,20 @@ Telegram交流反馈群组：https://t.me/eooceu
 | AUTO_ACCESS | 否 | false | 是否开启自动访问保活 |
 | PORT | 否 | 3000 | HTTP服务监听端口 |
 | ARGO_PORT | 否 | 8001 | Argo隧道端口 |
-| UUID | 否 | 89c13786-25aa-4520-b2e7-12cd60fb5202 | 用户UUID |
+| UUID | 否 | 9afd1229-b893-40c1-84dd-51e7ce204913 | 节点UUID |
 | NEZHA_SERVER | 否 | - | 哪吒面板域名 |
 | NEZHA_PORT | 否 | - | 哪吒端口 |
 | NEZHA_KEY | 否 | - | 哪吒密钥 |
-| ARGO_DOMAIN | 否 | - | Argo固定隧道域名 |
+| ARGO_DOMAIN | 否 | - | Argo固定隧道域名,留空使用临时隧道 |
 | ARGO_AUTH | 否 | - | Argo固定隧道密钥 |
 | CFIP | 否 | www.visa.com.tw | 节点优选域名或IP |
 | CFPORT | 否 | 443 | 节点端口 |
-| NAME | 否 | Vls | 节点名称前缀 |
+| NAME | 否 |   | 节点名称前缀 |
 | FILE_PATH | 否 | ./tmp | 运行目录 |
 | SUB_PATH | 否 | sub | 订阅路径 |
+| CHAT_ID | 否 |   | 推送节点的chat id,需要和bot token同时填写生效 |
+| BOT_TOKEN | 否 |  | 推送节点的bot token |
+| SHOW_LOG | 否 | true | 是否显示日志,no/false/disable屏蔽,true/yes显示|
 
 ## 🌐 订阅地址
 
